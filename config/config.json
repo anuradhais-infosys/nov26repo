@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "react-color-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reactColorWp/ReactColorWpWebPart.js",
+          "manifest": "./src/webparts/reactColorWp/ReactColorWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReactColorWpWebPartStrings": "lib/webparts/reactColorWp/loc/{locale}.js"
+  }
+}
